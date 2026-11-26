@@ -35,8 +35,6 @@ cd C:\Sysmon
 
 4. Confirm the output shows `Sysmon64 installed` and `Sysmon64 started`.
 
-![Sysmon install output](screenshots/01-sysmon-install.png)
-
 ## Generating and Finding Activity
 
 1. Open and close Notepad on the VM.
@@ -44,7 +42,6 @@ cd C:\Sysmon
    `Applications and Services Logs > Microsoft > Windows > Sysmon > Operational`
 3. Locate the **Event ID 1** entry for `Notepad.exe`.
 
-![Event ID 1 for Notepad](screenshots/02-event-id-1.png)
 
 ## Analysis
 
